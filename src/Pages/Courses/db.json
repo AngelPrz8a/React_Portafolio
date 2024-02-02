@@ -1,0 +1,51 @@
+
+[
+    {
+        "logo":"img/tecmd-logo.jpeg",
+        "institute":"Platzi",
+        "programName":"PHP BackEnd",
+        "duration":"Abril 2024 - Actualidad",
+        "skills":["laravel", "symfony", "livewire", "php", "tailwindcss", "mysql", "postman"],
+        "state":"En Desarrollo"
+    },
+    {
+        "logo":"img/tecmd-logo.jpeg",
+        "institute":"Google",
+        "programName":"Análisis de Datos",
+        "duration":"Falta data",
+        "skills":["Excel", "mysql", "r", "google excel", "googleCloud"],
+        "state":"Finalizado"
+    },
+    {
+        "logo":"img/tecmd-logo.jpeg",
+        "institute":"Universidad Distrital",
+        "programName":"Fullstack Intermedio",
+        "duration":"Falta data",
+        "skills":["Consultar"],
+        "state":"Finalizado"
+    },
+    {
+        "logo":"img/tecmd-logo.jpeg",
+        "institute":"Oracle Next Education",
+        "programName":"BackEnd",
+        "duration":"Dic 2022 - May 2023",
+        "skills":["Spring Boot", "Java", "Javascript", "Emprendimiento"],
+        "state":"Finalizado"
+    },
+    {
+        "logo":"img/tecmd-logo.jpeg",
+        "institute":"Universidad Nacional de Colombia",
+        "programName":"Habilidades en programación con énfasis en Aplicaciones Web",
+        "duration":"Enero - Dic 2022",
+        "skills":["Spring Boot", "java", "angular", "react", "javascript", "django", "flask", "python", "postam"],
+        "state":"Finalizado"
+    },
+    {
+        "logo":"img/tecmd-logo.jpeg",
+        "institute":"Correlation One",
+        "programName":"Fundamentos en Análitica de Datos",
+        "duration":"Dic 2022",
+        "skills":["excel", "python", "mysql"],
+        "state":"Finalizado"
+    }
+]

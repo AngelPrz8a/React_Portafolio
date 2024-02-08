@@ -12,7 +12,7 @@ const Nav = () =>{
                     </li>
                     /
                     <li>
-                        <a href="#proyectos">Proyectos</a>
+                        <a href="#cursos">Cursos</a>
                     </li>
                 </ul>
             </nav>

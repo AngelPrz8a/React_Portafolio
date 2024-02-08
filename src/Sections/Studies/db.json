@@ -1,7 +1,7 @@
 [
     {
         "id":3,
-        "logo":"img/tecmd-logo.jpeg",
+        "logo":"img/tecmd.jpeg",
         "institute":"(TecMD) Politécnico Minuto de Dios",
         "programName":"Seguridad informatica",
         "programTipe":"Técnico Profesional",
@@ -11,20 +11,20 @@
     },
     {
         "id":2,
-        "logo":"img/sena-logo.png",
+        "logo":"img/sena.png",
         "institute":"(SENA) Servicio Nacinal de Aprendizaje",
         "programName":"Análisis y Desarrollo de Sistemas de información",
         "programTipe":"Tecnólogo",
         "duration":"Dic 2020 - Jul 2022",
-        "skills":["laravel", "php", "react", "javascript", "java", "mysql", "mongodb", "tailwindcss", "html", "css"],
+        "skills":["laravel", "php", "react", "javascript", "java", "mysql", "mongodb", "api", "tailwindcss", "html", "css", "git"],
         "state":"Finalizado"
     },
     {
         "id":1,
-        "logo":"img/sena-logo.png",
+        "logo":"img/sena.png",
         "institute":"(SENA) Servicio Nacinal de Aprendizaje",
         "programName":"Programación de software",
-        "programTipe":"Técnico",
+        "programTipe":"Técnico Profesional",
         "duration":"Ene 2018 - Dic 2020",
         "skills":["php", "mysql", "bootstrap", "html", "css"],
         "state":"Finalizado"

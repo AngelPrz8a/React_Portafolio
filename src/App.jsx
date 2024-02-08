@@ -1,7 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Contacts from './Sections/Contacts'
-import Projects from "./Sections/Projects"
 import Studies from "./Sections/Studies"
 import Courses from "./Sections/Courses"
 import Header from "./Sections/Header"
@@ -18,9 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Main>
       <About id={"inicio"} />
       <Studies id={"estudios"} />
-      <Courses id={""} />
-      <Projects id={"proyectos"} />
-      <Contacts />
+      <Courses id={"cursos"} />
     </Main>
     <Footer/>
   </React.StrictMode>,

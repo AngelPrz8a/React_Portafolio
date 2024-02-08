@@ -10,6 +10,12 @@ main section{
     padding-right: 40px;
 }
 
+/*Sobre mi*/
+
+.about-head{
+    text-align: left;
+}
+
 /*Estudios*/
 
 .studies-cards-container{
@@ -35,7 +41,6 @@ main section{
 }
 
 .curse-card{
-    padding: 1.5rem 1.5rem;
     max-width:45%;
     flex-direction: row;
 }
@@ -49,6 +54,10 @@ main section{
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+}
+
+.curse-head p:nth-child(1){
+    margin-bottom: 1rem;
 }
 
 

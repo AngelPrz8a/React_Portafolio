@@ -1,33 +1,42 @@
+import Symbols from "../Symbols";
 import db from "./db.json";
 
-const Courses =()=>{
+const Courses =(id)=>{
     
     return(
     <>
-        <h1>Courses</h1>
-        
-    <div>
-        {db.map((item) => (
-            <div key={item.duration} className="study-card card actual">
-                <div className="study-header">
-                    <div className="study-head">
-                        <div className="img">
-                            <img className="circle circle-big" src="./assets/img/tecmd-logo.jpeg" alt="" />
+        <section id={id.id}>                
+            <p className="title">Cursos</p>
+            <div className="curses-cards-container">
+
+                {db.map((element)=>(
+                    <div key={element.id} className="curse-card card">
+                        <div className="curse-head">
+                            <div className="img">
+                                <img className="circle circle-big" src={element.logo} alt={element.institute} />
+                            </div>
+                            <p>{element.institute}</p>
+                            <div className="text">
+                                <p>{element.programName}</p>
+                                <p className="curse-date">{element.duration}</p>
+                            </div>
                         </div>
-                        <p className="study-name">{item.programName}</p>
+                        <div className="curse-body">
+                            {
+                                Symbols(element.skills).map((skill)=>(
+                                    <div key={skill.name} className="img">
+                                        <svg className="circle-small fill-black" role="img" viewBox={skill.viewBox} xmlns={skill.xmlns}><title>{skill.title}</title><path d={skill.d}/></svg>
+                                    </div>
+                                ))
+                            }
+                        </div>
                     </div>
-                    <div className="study-details">
-                        <p>{item.institute}</p>
-                        <p>{item.duration}</p>
-                    </div>
-                </div>
+                ))}
                 
-                <div className="study-body">
-                    <p><strong>{item.state}</strong></p>
-                </div>
+
             </div>
-        ))}
-    </div>
+        </section>
+        <hr/>
     </>
     )
 }

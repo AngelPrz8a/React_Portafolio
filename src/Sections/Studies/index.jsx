@@ -5,7 +5,7 @@ const Studies =(id)=>{
     
     return(
         <>
-        <section id={id}>
+        <section id={id.id}>
             <p className="title">Estudios</p>
 
             <div className="studies-container">

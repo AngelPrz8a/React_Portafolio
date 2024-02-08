@@ -12,9 +12,9 @@
     --small:12px;
     --very-small:10px;
     /*Circle Size*/
-    --circle-big:40px;
-    --circle-medium:28px;
-    --circle-small:23px;
+    --circle-big:45px;
+    --circle-medium:32px;
+    --circle-small:28px;
     /*Fonts*/
     --serif:'Times New Roman', Times, serif;
     --sans-serif:Arial, Helvetica, sans-serif;
@@ -44,19 +44,30 @@ p{
 /*HEADER*/
 
 header{
-    width: 100vw;
-    height: 50vh;
-}
-
-.header-title-container{
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: column wrap;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.header-title{
+    height: 65%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    padding-bottom: 4rem;
+}
+
+.header-contact{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
 
 .name{
     font-size: var(--title);
@@ -74,7 +85,7 @@ header{
 nav{
     position: sticky;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     background-color: var(--background-nav);
     border-top: 0.1px solid var(--background-card);
@@ -82,7 +93,7 @@ nav{
 }
 
 .nav-container{
-    width: 100vw;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-flow: wrap row;
@@ -116,13 +127,13 @@ main{
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 
 main section{
     display: inline-block;
     width: 100%;
-    padding: 80px 20px;
+    padding:50px 15px;
 }
 
 hr{
@@ -131,11 +142,12 @@ hr{
 }
 
 .title{
-    display: inline-block;
+    display: flex;
     font-size: var(--subtitle);
     font-weight: bold;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    margin-top: -10px;
+    padding-bottom: 40px;
+    justify-content: center;
 }
 
 /*////////////////////*/
@@ -220,6 +232,10 @@ img{
     gap:2rem;
 }
 
+.about-head{
+    text-align: center;
+}
+
 .about-tools{
     width: 100%;
     height: auto;
@@ -227,7 +243,6 @@ img{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1.5rem;
     gap: 0.5rem;
 }
 
@@ -297,10 +312,6 @@ img{
     gap: 5px;
 }
 
-.study-body .img{
-    border: 1px solid var(--white);
-}
-
 
 
 /*CURSOS*/
@@ -355,16 +366,6 @@ img{
 .actual{
     border: 2px solid gray;
     box-shadow: -2px 2px 8px gray;
-}
-
-.platzi{
-    border: 2px solid green;
-    box-shadow: -2px 2px 8px green;
-}
-
-.google{
-    border: 2px solid lightseagreen;
-    box-shadow: -2px 2px 8px lightseagreen;
 }
 
 

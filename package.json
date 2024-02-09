@@ -1,6 +1,6 @@
 {
   "homepage": "https://angelprz8a.github.io/Portafolio",
-
+  "proxy": "file:///D:/3D Objects/Proyectos/SI_Portafolio_React/Portafolio/dist",
   "name": "portafolio",
   "private": true,
   "version": "0.0.0",
